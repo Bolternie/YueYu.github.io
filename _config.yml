@@ -3,16 +3,16 @@ url: "hanchaozhang.xyz "
 # Basic Information
 title: Hanchao Zhang
 # subtitle:
-position: Research Scientist
+position: Founding Data Scientist
 # subposition: Chair of the Chinese Student and Scholar Association (CSSA)
 subposition_link: https://nyu-medicine-cssa.github.io
-affiliation: Google LLC
+affiliation: Unity
 # subaffiliation: Grossman School of Medicine
-affiliation_link: https://about.google/
+affiliation_link: https://unity.com/
 subaffiliation_link: https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/
-email: Hanchao.Zhang@nyu.edu
-address: 100 Bayview Dr, Mountain View, CA 94043
-address_link: https://goo.gl/maps/aQZfmiKjQmqbDsVY9
+email: hanchao.zhang@outlook.com
+address: 116 New Montgomery Street, San Francisco, California, 94105, USA
+address_link: https://www.google.com/maps/search/?api=1&query=116+New+Montgomery+Street+San+Francisco+CA+94105
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -30,7 +30,7 @@ twitter: https://twitter.com/tedddddy_zhang
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
-avatar: ./assets/img/avatar2.png
+avatar: ./assets/img/avatar_new.jpg
 # logo: ./assets/img/logo.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png

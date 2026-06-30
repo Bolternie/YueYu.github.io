@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    align-items: flex-start;
+    align-items: stretch;   /* both columns share the same height */
   }
 
   /* === Timeline container === */
@@ -116,22 +116,39 @@
   .research-interests {
     flex: 1;
     min-width: 280px;
+    display: flex;
+    flex-direction: column;
   }
 
   .research-interests ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex: 1;                          /* fill the column so height matches Education */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   /* spread items evenly across that height */
+    /* same top→bottom fade as Education: items stay solid, the last block fades out */
+    -webkit-mask-image: linear-gradient(to bottom,
+      #000 0%, #000 78%,
+      rgba(0,0,0,0.5) 86%,
+      rgba(0,0,0,0.12) 93%,
+      rgba(0,0,0,0.02) 99%);
+    mask-image: linear-gradient(to bottom,
+      #000 0%, #000 78%,
+      rgba(0,0,0,0.5) 86%,
+      rgba(0,0,0,0.12) 93%,
+      rgba(0,0,0,0.02) 99%);
   }
 
   .research-interests ul li {
-    padding: 8px 12px;
+    padding: 6px 12px;
     border-left: 3px solid #57068c;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     background: rgba(87, 6, 140, 0.03);
     border-radius: 0 7px 7px 0;
-    font-size: 0.95rem;
-    line-height: 1.55;
+    font-size: 0.9rem;
+    line-height: 1.38;
     transition: background 0.2s ease, border-left-color 0.2s ease, transform 0.2s ease;
   }
 

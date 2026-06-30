@@ -3,7 +3,20 @@
   <h2>Professional Experiences</h2>
   <div class="timeline-line"></div>
 
-  <!-- Current role at Google -->
+  <!-- Current role at Unity -->
+  <div class="timeline-entry">
+    <div class="year-circle">2026</div>
+    <div class="entry-content">
+      <h3><i class="fas fa-rocket"></i> Founding Data Scientist, Unity</h3>
+      <ul>
+        <li>Build AI agents that make every analyst a 10x data scientist</li>
+        <li>Lead App Ads modeling — auction, bidding, valuation, CVR, and MMM</li>
+        <li>Set the team's data science foundations and experimentation practices</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Prior role at Google -->
   <div class="timeline-entry">
     <div class="year-circle">2025</div>
     <div class="entry-content">
