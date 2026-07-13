@@ -221,12 +221,12 @@ papertitle {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #404040;
-    color: #eee6f3;
+    background-color: #16161a;
+    color: #e8e6ee;
   }
 
   autocolor {
-    color: #ab82c5;
+    color: #c9a9e0;
   }
 
   lightonly {
@@ -365,7 +365,7 @@ h2 {
   }
 
   h2 {
-    color: #d6d6d6;
+    color: #f0eef5;
   }
 
   email {
@@ -405,7 +405,11 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   a {
-    color: #ab82c5;
+    color: #c9a9e0;
+  }
+
+  a:hover {
+    color: #e0cdf0;
   }
 }
 
@@ -470,11 +474,39 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color: rgb(62, 183, 240);
+    color: #5fc9f5;
   }
 
   dt {
-    color: rgb(62, 183, 240);
+    color: #5fc9f5;
+  }
+
+  code,
+  pre {
+    color: #d7d5e0;
+  }
+
+  pre {
+    background: #1f1f26;
+    border: 1px solid #33333d;
+  }
+
+  blockquote {
+    border-left: 2px solid #4a4a57;
+    color: #bcbac6;
+  }
+
+  hr {
+    background: #33333d;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid #33333d;
+  }
+
+  .icon-button {
+    background-color: #242430;
   }
 }
 
@@ -543,7 +575,7 @@ strong {
 
 @media (prefers-color-scheme: dark) {
   strong {
-    color: #eeeff0;
+    color: #f4f2f8;
   }
 }
 

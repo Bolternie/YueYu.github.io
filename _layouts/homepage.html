@@ -206,26 +206,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 <script>
-  VANTA.BIRDS({
-    el: "#vanta-bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: true,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    backgroundColor: 0xffffff,     // white background
-    color1: 0x57068C,              // NYU purple for birds
-    color2: 0x999999,              // light gray for accent birds
-    birdSize: 1.5,
-    wingSpan: 20,
-    speedLimit: 3.00,
-    separation: 50.00,
-    alignment: 50.00,
-    cohesion: 50.00,
-    quantity: 2
-  })
+  var vantaEffect = null;
+  var darkMQ = window.matchMedia("(prefers-color-scheme: dark)");
+
+  function initVanta() {
+    if (vantaEffect) { vantaEffect.destroy(); }
+    var dark = darkMQ.matches;
+    vantaEffect = VANTA.BIRDS({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: dark ? 0x16161a : 0xffffff,  // match page bg per scheme
+      color1: dark ? 0xab82c5 : 0x57068C,           // birds: lighter orchid in dark
+      color2: dark ? 0x5a5a66 : 0x999999,           // accent birds
+      birdSize: 1.5,
+      wingSpan: 20,
+      speedLimit: 3.00,
+      separation: 50.00,
+      alignment: 50.00,
+      cohesion: 50.00,
+      quantity: 2
+    });
+  }
+
+  initVanta();
+  // Re-init when the OS / DevTools color scheme changes
+  darkMQ.addEventListener("change", initVanta);
   </script>
 
 
