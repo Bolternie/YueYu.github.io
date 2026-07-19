@@ -15,8 +15,8 @@
     <div class="title">Development of Three-Phase LLC Control Strategy</div>
     <div class="author"><strong>Yue Yu</strong> &middot; <em>Xi'an Jiaotong University</em></div>
     <ul style="margin:6px 0 4px; padding-left:18px; font-size:0.88rem; line-height:1.5;">
-      <li>Simplified Optimal Trajectory Control (SOTC) for transient response &mdash; <em>patent pending</em></li>
-      <li>Simplified Feedforward Control for steady-state operation &mdash; <em>patent pending</em></li>
+      <li>Simplified Optimal Trajectory Control (SOTC) for transient response &mdash; Simplified Feedforward Control for steady-state operation &mdash; <em>patent pending</em></li>
+      <li></li>
     </ul>
   </div>
 
