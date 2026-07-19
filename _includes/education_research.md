@@ -2,6 +2,14 @@
 <!--   EDUCATION + RESEARCH INTERESTS  (two parallel left-border lists) -->
 <!-- ============================= -->
 <style>
+  /* === Two-column flex layout === */
+  .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: stretch;
+  }
+
   /* Education list — same visual language as .research-interests */
   .edu-list{ flex:1; min-width:280px; }
   .edu-list h2{ margin-bottom:16px; }
@@ -34,11 +42,55 @@
   /* per-row tint only */
   .edu-list li.l1{ background:rgba(45,88,72,0.06); }  /* MIT — PhD */
 
+  /* === Research Interests === */
+  .research-interests {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .research-interests h2{ margin-bottom:16px; }
+
+  .research-interests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .research-interests ul li {
+    padding: 8px 12px;
+    border-left: 3px solid #2D5848;
+    margin-bottom: 10px;
+    background: rgba(45, 88, 72, 0.03);
+    border-radius: 0 7px 7px 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    transition: background 0.2s ease, border-left-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .research-interests ul li:hover {
+    background: rgba(45, 88, 72, 0.07);
+    border-left-color: #448870;
+    transform: translateX(2px);
+  }
+
+  /* === Dark mode === */
   @media (prefers-color-scheme: dark){
     .edu-list li{ background:rgba(45,88,72,0.12); }
     .edu-list li.l1{ background:rgba(45,88,72,0.2); }
     .edu-list .school a{ color:#ece4f3; }
     .edu-list .deg{ color:#bcb0ca; }
+    .research-interests ul li {
+      background: rgba(45, 88, 72, 0.12);
+      color: #ddd;
+    }
+    .research-interests ul li:hover {
+      background: rgba(45, 88, 72, 0.22);
+    }
   }
 </style>
 
@@ -63,7 +115,7 @@
   <div class="research-interests">
     <h2>Research Interests</h2>
     <ul>
-      <li>To be updated.</li>
+      <li><strong>Power Electronics and Energy Conversion Technologies:</strong> high-efficiency DC-DC converter designs</li>
     </ul>
   </div>
 </div>
