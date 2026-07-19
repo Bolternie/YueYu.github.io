@@ -48,7 +48,7 @@
       <!-- Diagonal stats equation watermark — covers full sidebar background -->
       <div class="stats-watermark" aria-hidden="true">
         <svg width="100%" height="100%" viewBox="0 0 232 950" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-          <g transform="rotate(-30, 116, 475)" fill="#57068c" font-family="Caveat, cursive" font-weight="400">
+          <g transform="rotate(-30, 116, 475)" fill="#2D5848" font-family="Caveat, cursive" font-weight="400">
             <text x="-80" y="30"  font-size="26" opacity="0.13">β̂ = (XᵀX)⁻¹ Xᵀy</text>
             <text x="-80" y="95"  font-size="24" opacity="0.11">∫ liminf fₙ dμ ≤ liminf ∫ fₙ dμ</text>
             <text x="-80" y="158" font-size="27" opacity="0.13">√n (X̄ − μ)/σ →ᵈ N(0,1)</text>
@@ -158,11 +158,11 @@
         .beyond-link{ display:inline-flex; align-items:center; gap:7px; margin-top:4px;
           font-size:.8rem; font-weight:600; letter-spacing:.01em; color:#fff;
           text-decoration:none; padding:8px 18px; border-radius:22px;
-          background:linear-gradient(135deg,#57068c,#9c27b0);
-          box-shadow:0 4px 12px rgba(87,6,140,.28);
+          background:linear-gradient(135deg,#2D5848,#448870);
+          box-shadow:0 4px 12px rgba(45,88,72,.28);
           transition:filter .2s ease, transform .2s ease, box-shadow .2s ease; }
         .beyond-link:hover{ filter:brightness(1.08); transform:translateY(-1px);
-          box-shadow:0 6px 16px rgba(87,6,140,.36); color:#fff; }
+          box-shadow:0 6px 16px rgba(45,88,72,.36); color:#fff; }
       </style>
       {% if page.url == '/life.html' %}
       <a class="beyond-link" href="{{ '/' | relative_url }}">&larr; Back to home</a>
@@ -222,7 +222,7 @@
       scale: 1.00,
       scaleMobile: 1.00,
       backgroundColor: dark ? 0x16161a : 0xffffff,  // match page bg per scheme
-      color1: dark ? 0xab82c5 : 0x57068C,           // birds: lighter orchid in dark
+      color1: dark ? 0x87C1AA : 0x2D5848,           // birds: lighter green in dark
       color2: dark ? 0x5a5a66 : 0x999999,           // accent birds
       birdSize: 1.5,
       wingSpan: 20,
