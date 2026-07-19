@@ -20,33 +20,33 @@
   }
   .edu-list li{
     padding:8px 12px;
-    border-left:3px solid #57068c;
+    border-left:3px solid #2D5848;
     margin-bottom:10px;
-    background:rgba(87,6,140,0.03);
+    background:rgba(45,88,72,0.03);
     border-radius:0 7px 7px 0;
     font-size:0.95rem;
     line-height:1.5;
     transition:background .2s ease, border-left-color .2s ease, transform .2s ease, opacity .25s ease;
   }
   .edu-list li:hover{
-    background:rgba(87,6,140,0.07);
-    border-left-color:#9c27b0;
+    background:rgba(45,88,72,0.07);
+    border-left-color:#448870;
     transform:translateX(2px);
   }
   .edu-list .school{ font-weight:700; }
   .edu-list .school a{ color:#241a2e; text-decoration:none; }
-  .edu-list .school a:hover{ color:#57068c; }
+  .edu-list .school a:hover{ color:#2D5848; }
   .edu-list .deg{ color:#6b6275; font-size:0.88rem; margin-top:1px; }
-  .edu-list .deg a{ color:#9c27b0; text-decoration:none; }
+  .edu-list .deg a{ color:#448870; text-decoration:none; }
   .edu-list .deg a:hover{ text-decoration:underline; }
   .edu-list .yr{ color:#9b93a6; font-weight:600; }
 
   /* per-row tint only */
-  .edu-list li.l1{ background:rgba(87,6,140,0.06); }  /* MIT — PhD */
+  .edu-list li.l1{ background:rgba(45,88,72,0.06); }  /* MIT — PhD */
 
   @media (prefers-color-scheme: dark){
-    .edu-list li{ background:rgba(87,6,140,0.12); }
-    .edu-list li.l1{ background:rgba(87,6,140,0.2); }
+    .edu-list li{ background:rgba(45,88,72,0.12); }
+    .edu-list li.l1{ background:rgba(45,6,140,0.2); }
     .edu-list .school a{ color:#ece4f3; }
     .edu-list .deg{ color:#bcb0ca; }
   }
