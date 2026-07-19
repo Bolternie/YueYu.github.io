@@ -24,7 +24,7 @@ a.no-color {
   height: 2.4rem;
   width: 2.4rem;
   background-color: transparent;
-  color: #57068c !important;
+  color: #2D5848 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.15rem;
@@ -198,7 +198,7 @@ email {
 // }
 
 autocolor {
-  color: #57068c;
+  color: #2D5848;
 }
 
 lightonly {
@@ -226,7 +226,7 @@ papertitle {
   }
 
   autocolor {
-    color: #c9a9e0;
+    color: #87C1AA;
   }
 
   lightonly {
@@ -282,8 +282,8 @@ papertitle {
   padding: 0;
   border: 3px solid transparent;
   background: linear-gradient(#fff, #fff) padding-box,
-              linear-gradient(135deg, #57068c, #ab82c5) border-box;
-  box-shadow: 0 4px 24px rgba(87, 6, 140, 0.22), 0 0 0 6px rgba(87, 6, 140, 0.07);
+              linear-gradient(135deg, #2D5848, #87C1AA) border-box;
+  box-shadow: 0 4px 24px rgba(45, 88, 72, 0.22), 0 0 0 6px rgba(45, 88, 72, 0.07);
 }
 
 .image.logo img {
@@ -395,21 +395,21 @@ h1 {
 }
 
 a {
-  color: #702b9d;
+  color: #2D5848;
   text-decoration: none;
 }
 
 a:hover {
-  color: #330662;
+  color: #1B3A30;
 }
 
 @media (prefers-color-scheme: dark) {
   a {
-    color: #c9a9e0;
+    color: #87C1AA;
   }
 
   a:hover {
-    color: #e0cdf0;
+    color: #B4DBCA;
   }
 }
 
@@ -814,7 +814,7 @@ section h2::after {
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #57068c 0%, rgba(171, 130, 197, 0.35) 100%);
+  background: linear-gradient(90deg, #2D5848 0%, rgba(135, 193, 170, 0.35) 100%);
   border-radius: 2px;
 }
 
@@ -827,15 +827,15 @@ section h2::after {
 
 .publications ol.bibliography li:hover {
   background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 4px 18px rgba(87, 6, 140, 0.1);
+  box-shadow: 0 4px 18px rgba(45, 88, 72, 0.1);
   transform: translateY(-2px);
 }
 
 /* Button hover — fill with theme color */
 .publications ol.bibliography li .links a.btn:hover {
   color: #fff !important;
-  background-color: #57068c !important;
-  border-color: #57068c !important;
+  background-color: #2D5848 !important;
+  border-color: #2D5848 !important;
 }
 
 /* Smooth link color transitions */
@@ -846,11 +846,11 @@ a {
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
   .publications ol.bibliography li:hover {
-    background: rgba(80, 50, 100, 0.4);
+    background: rgba(45, 88, 72, 0.4);
   }
 
   .publications ol.bibliography li .links a.btn:hover {
-    background-color: #ab82c5 !important;
-    border-color: #ab82c5 !important;
+    background-color: #87C1AA !important;
+    border-color: #87C1AA !important;
   }
 }
