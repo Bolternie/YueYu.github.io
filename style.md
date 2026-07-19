@@ -25,7 +25,7 @@
     left: 14px;
     width: 2px;
     height: calc(100% - 136px);
-    background: linear-gradient(to bottom, #57068C 0%, rgba(87, 6, 140, 0.12) 100%);
+    background: linear-gradient(to bottom, #2D5848 0%, rgba(45, 88, 72, 0.12) 100%);
     border-radius: 2px;
   }
 
@@ -43,7 +43,7 @@
     top: 6px;
     width: 30px;
     height: 30px;
-    background: linear-gradient(135deg, #57068C, #9c27b0);
+    background: linear-gradient(135deg, #2D5848, #448870);
     color: white;
     font-weight: 700;
     font-size: 0.62rem;
@@ -54,7 +54,7 @@
     text-align: center;
     z-index: 2;
     letter-spacing: -0.5px;
-    box-shadow: 0 0 0 3px rgba(87, 6, 140, 0.14), 0 2px 8px rgba(87, 6, 140, 0.28);
+    box-shadow: 0 0 0 3px rgba(45, 88, 72, 0.14), 0 2px 8px rgba(45, 88, 72, 0.28);
   }
 
   .year-circle::before {
@@ -62,7 +62,7 @@
     position: absolute;
     inset: -5px;
     border-radius: 50%;
-    border: 2px solid #57068c;
+    border: 2px solid #2D5848;
     animation: pulse-ring 2.2s ease-out infinite;
     opacity: 0;
   }
@@ -77,15 +77,15 @@
     background: rgba(255, 255, 255, 0.76);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(87, 6, 140, 0.1);
+    border: 1px solid rgba(45, 88, 72, 0.1);
     border-radius: 10px;
     padding: 10px 14px;
-    box-shadow: 0 2px 10px rgba(87, 6, 140, 0.06);
+    box-shadow: 0 2px 10px rgba(45, 88, 72, 0.06);
     transition: box-shadow 0.25s ease, transform 0.25s ease;
   }
 
   .entry-content:hover {
-    box-shadow: 0 5px 22px rgba(87, 6, 140, 0.13);
+    box-shadow: 0 5px 22px rgba(45, 88, 72, 0.13);
     transform: translateX(3px);
   }
 
@@ -143,9 +143,9 @@
 
   .research-interests ul li {
     padding: 6px 12px;
-    border-left: 3px solid #57068c;
+    border-left: 3px solid #2D5848;
     margin-bottom: 6px;
-    background: rgba(87, 6, 140, 0.03);
+    background: rgba(45, 88, 72, 0.03);
     border-radius: 0 7px 7px 0;
     font-size: 0.9rem;
     line-height: 1.38;
@@ -153,8 +153,8 @@
   }
 
   .research-interests ul li:hover {
-    background: rgba(87, 6, 140, 0.07);
-    border-left-color: #9c27b0;
+    background: rgba(45, 88, 72, 0.07);
+    border-left-color: #448870;
     transform: translateX(2px);
   }
 
@@ -172,7 +172,7 @@
 
   /* [1] Gradient name shimmer */
   header h1 {
-    background: linear-gradient(90deg, #3a006b 0%, #9c27b0 40%, #57068c 70%, #3a006b 100%);
+    background: linear-gradient(90deg, #1B3A30 0%, #448870 40%, #2D5848 70%, #1B3A30 100%);
     background-size: 220% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -192,7 +192,7 @@
     left: 0;
     height: 3px;
     width: 0%;
-    background: linear-gradient(90deg, #57068c, #ab82c5);
+    background: linear-gradient(90deg, #2D5848, #87C1AA);
     z-index: 9999;
     border-radius: 0 2px 2px 0;
     transition: width 0.08s linear;
@@ -203,8 +203,8 @@
   /* Dark mode overrides */
   @media (prefers-color-scheme: dark) {
     .entry-content {
-      background: rgba(55, 30, 75, 0.6);
-      border-color: rgba(171, 130, 197, 0.15);
+      background: rgba(27, 58, 48, 0.6);
+      border-color: rgba(135, 193, 170, 0.15);
     }
 
     .entry-content div,
@@ -213,16 +213,16 @@
     }
 
     .research-interests ul li {
-      background: rgba(87, 6, 140, 0.12);
+      background: rgba(45, 88, 72, 0.12);
       color: #ddd;
     }
 
     .research-interests ul li:hover {
-      background: rgba(87, 6, 140, 0.22);
+      background: rgba(45, 88, 72, 0.22);
     }
 
     header h1 {
-      background: linear-gradient(90deg, #ab82c5 0%, #e0c8f0 40%, #ab82c5 70%, #7b3fa8 100%);
+      background: linear-gradient(90deg, #87C1AA 0%, #B4DBCA 40%, #87C1AA 70%, #448870 100%);
       background-size: 220% auto;
       -webkit-background-clip: text;
       background-clip: text;
