@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: Beyond Research — Hanchao Zhang
+title: Beyond Research — Yue Yu
 permalink: /life.html
 ---
 

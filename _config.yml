@@ -1,32 +1,32 @@
 url: "https://bolternie.github.io"
 baseurl: "/YueYu.github.io"
 # Basic Information
-title: Hanchao Zhang
+title: Yue Yu
 # subtitle:
-position: Founding Data Scientist
-# subposition: Chair of the Chinese Student and Scholar Association (CSSA)
-subposition_link: https://nyu-medicine-cssa.github.io
-affiliation: Unity
-# subaffiliation: Grossman School of Medicine
-affiliation_link: https://unity.com/
-subaffiliation_link: https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/
-email: hanchao.zhang@outlook.com
-address: 116 New Montgomery Street, San Francisco, California, 94105, USA
-address_link: https://www.google.com/maps/search/?api=1&query=116+New+Montgomery+Street+San+Francisco+CA+94105
+position: Incoming Ph.D. Student
+subposition: Stata Family Presidential Fellow
+subposition_link: https://oge.mit.edu/fellowships/presidential-graduate-fellowship-program/
+affiliation: MIT EECS
+# subaffiliation:
+affiliation_link: https://www.eecs.mit.edu/
+# subaffiliation_link:
+email: yueyu518@mit.edu
+address: 77 Massachusetts Avenue, Cambridge, MA 02139, USA
+address_link: https://www.google.com/maps/search/?api=1&query=77+Massachusetts+Avenue+Cambridge+MA+02139
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Yue Yu, MIT, EECS, Electrical Engineering
+description: Personal homepage of Yue Yu, incoming Ph.D. student in EECS at MIT.
+canonical: https://bolternie.github.io/YueYu.github.io/
 
 # Links
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=bePCCD8AAAAJ&hl=en
-# cv_link: assets/files/HanchaoZhangCV.pdf
-github_link: https://github.com/Hanchao-Zhang
-linkedin: https://www.linkedin.com/in/hanchao-ted-zhang-670105b7/?locale=en_US
-twitter: https://twitter.com/tedddddy_zhang
+# google_scholar:
+# cv_link:
+github_link: https://github.com/Bolternie
+# linkedin:
+# twitter:
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
@@ -41,7 +41,7 @@ enable_footnote: false
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+# google_analytics:
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

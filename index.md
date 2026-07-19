@@ -8,27 +8,18 @@ layout: homepage
 <!-- Education & Research Section -->
 {% include_relative _includes/education_research.md %}
 
-<!-- Professional Experience Section -->
-{% include_relative _includes/professional.md %}
-
 <!-- Awards Section -->
 {% include_relative _includes/awards.md %}
 
-<!-- Projects Section -->
+<!-- The sections below are kept from the template.
+     Uncomment each one after you add your own content to the
+     corresponding file in _includes/.
+
+{% include_relative _includes/professional.md %}
 {% include_relative _includes/projects.md %}
-
-<!-- Talks Section -->
 {% include_relative _includes/talks.md %}
-<!-- Collaboration Section -->
 {% include_relative _includes/collaboration.md %}
-
-<!-- Services Section -->
 {% include_relative _includes/services.md %}
-
-<!-- Resources Section -->
 {% include_relative _includes/resources.md %}
-
-<!-- Style Section -->
 {% include_relative style.md %}
-
-<!--  -->
+-->

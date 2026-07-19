@@ -1,4 +1,3 @@
-
 ## Awards
 
-- **[May. 2023]** <a href="https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships.html" target="_blank">_MacCracken Awards_</a> for outstanding research and activities
+- **[Sep. 2026 &ndash; May. 2027]** <a href="https://oge.mit.edu/fellowships/presidential-graduate-fellowship-program/" target="_blank">_Stata Family Presidential Fellowship_</a>, Massachusetts Institute of Technology

@@ -1,7 +1,5 @@
 <!-- ============================= -->
-<!--   EDUCATION + RESEARCH INTERESTS  (two parallel left-border lists)
-<!--   Education mirrors the Research Interests style for consistency, and
-<!--   fades from top (recent) to bottom (older), starting at JHU. -->
+<!--   EDUCATION + RESEARCH INTERESTS  (two parallel left-border lists) -->
 <!-- ============================= -->
 <style>
   /* Education list — same visual language as .research-interests */
@@ -9,19 +7,16 @@
   .edu-list h2{ margin-bottom:16px; }
   .edu-list ul{
     list-style:none; padding:0; margin:0;
-    /* continuous top→bottom fade (steep): solid through JHU's first line,
-       the fade begins on JHU's degree line, Cornell's name stays legible,
-       and Cornell's B.S. line is nearly erased — only the tops peek through */
     -webkit-mask-image: linear-gradient(to bottom,
-      #000 0%, #000 60%,
-      rgba(0,0,0,0.5) 76%,
-      rgba(0,0,0,0.2) 86%,
-      rgba(0,0,0,0.02) 92%);
+      #000 0%, #000 82%,
+      rgba(0,0,0,0.55) 90%,
+      rgba(0,0,0,0.25) 96%,
+      rgba(0,0,0,0.08) 100%);
     mask-image: linear-gradient(to bottom,
-      #000 0%, #000 60%,
-      rgba(0,0,0,0.5) 76%,
-      rgba(0,0,0,0.2) 86%,
-      rgba(0,0,0,0.02) 92%);
+      #000 0%, #000 82%,
+      rgba(0,0,0,0.55) 90%,
+      rgba(0,0,0,0.25) 96%,
+      rgba(0,0,0,0.08) 100%);
   }
   .edu-list li{
     padding:8px 12px;
@@ -46,8 +41,8 @@
   .edu-list .deg a:hover{ text-decoration:underline; }
   .edu-list .yr{ color:#9b93a6; font-weight:600; }
 
-  /* per-row tint only — the smooth top→bottom fade is handled by the ul mask above */
-  .edu-list li.l1{ background:rgba(87,6,140,0.06); }  /* NYU — PhD */
+  /* per-row tint only */
+  .edu-list li.l1{ background:rgba(87,6,140,0.06); }  /* MIT — PhD */
 
   @media (prefers-color-scheme: dark){
     .edu-list li{ background:rgba(87,6,140,0.12); }
@@ -59,43 +54,26 @@
 
 <div class="container-flex">
 
-  <!-- ===== Education (mirrors Research Interests, fades top→bottom) ===== -->
+  <!-- ===== Education ===== -->
   <div class="edu-list">
     <h2>Education</h2>
     <ul>
       <li class="l1">
-        <span class="school"><a href="https://www.nyu.edu/" target="_blank" rel="noopener">New York University</a></span>
-        <div class="deg">Ph.D. in Biostatistics · <span class="yr">2024</span><br>Advised by <a href="https://scholar.google.com/citations?user=QtyFQVYAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Thaddeus Tarpey</a></div>
+        <span class="school"><a href="https://www.mit.edu/" target="_blank" rel="noopener">Massachusetts Institute of Technology</a></span>
+        <div class="deg">Ph.D. in Electrical Engineering and Computer Science &middot; <span class="yr">2026.9 &ndash; Present</span><br><a href="https://oge.mit.edu/fellowships/presidential-graduate-fellowship-program/" target="_blank" rel="noopener">Stata Family Presidential Fellow</a></div>
       </li>
       <li class="l2">
-        <span class="school"><a href="https://www.columbia.edu/" target="_blank" rel="noopener">Columbia University</a></span>
-        <div class="deg">Visiting Ph.D. Student, Statistics · <span class="yr">2023</span></div>
-      </li>
-      <li class="l3">
-        <span class="school"><a href="https://www.jhu.edu/" target="_blank" rel="noopener">Johns Hopkins University</a></span>
-        <div class="deg">M.S. in Applied Mathematics and Statistics · <span class="yr">2020</span></div>
-      </li>
-      <li class="l4">
-        <span class="school"><a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell University</a></span>
-        <div class="deg">B.S. in Biostatistics &amp; Data Science · <span class="yr">2018</span></div>
+        <span class="school"><a href="http://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a></span>
+        <div class="deg">B.Eng. in Electrical Engineering &middot; <span class="yr">2022.9 &ndash; 2026.6</span></div>
       </li>
     </ul>
   </div>
 
-  <!-- ============================= -->
-  <!--       RESEARCH INTERESTS     -->
-  <!-- ============================= -->
+  <!-- ===== Research Interests ===== -->
   <div class="research-interests">
     <h2>Research Interests</h2>
     <ul>
-      <!-- Causal inference and precision medicine topics -->
-      <li><strong>Causal Inference and Precision Medicine:</strong> causal subpopulation identification, mediation analysis, Personalized recommendation based on treatment effect and generated modifiers of treatment effect</li>
-      <!-- Machine learning topics -->
-      <li><strong>Machine Learning:</strong> fairness ML, semi-supervised learning</li>
-      <!-- Manifold and metric learning topics -->
-      <li><strong>Manifold Learning and Metric Learning:</strong> positive semi-definite manifold learning and metric learning</li>
-      <!-- Functional data analysis topics -->
-      <li><strong>Functional Data Analysis:</strong> functional regression, and clustering methods</li>
+      <li>To be updated.</li>
     </ul>
   </div>
 </div>
