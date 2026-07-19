@@ -7,16 +7,6 @@
   .edu-list h2{ margin-bottom:16px; }
   .edu-list ul{
     list-style:none; padding:0; margin:0;
-    -webkit-mask-image: linear-gradient(to bottom,
-      #000 0%, #000 82%,
-      rgba(0,0,0,0.55) 90%,
-      rgba(0,0,0,0.25) 96%,
-      rgba(0,0,0,0.08) 100%);
-    mask-image: linear-gradient(to bottom,
-      #000 0%, #000 82%,
-      rgba(0,0,0,0.55) 90%,
-      rgba(0,0,0,0.25) 96%,
-      rgba(0,0,0,0.08) 100%);
   }
   .edu-list li{
     padding:8px 12px;

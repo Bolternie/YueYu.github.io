@@ -81,6 +81,7 @@
     margin: 0 0 5px 0;
     font-size: 1.05rem;
     line-height: 1.3;
+    color: #2D5848;
   }
 
   .entry-content div {
@@ -105,6 +106,10 @@
     .entry-content {
       background: rgba(27, 58, 48, 0.6);
       border-color: rgba(135, 193, 170, 0.15);
+    }
+
+    .entry-content h3 {
+      color: #87C1AA;
     }
 
     .entry-content div,
