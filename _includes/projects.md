@@ -66,7 +66,7 @@
   <div style="flex:1; min-width:240px; position:relative; padding-right:15px; padding-left:6px;">
     <div class="title">Low-Loss Soft Magnetic Materials and Their Application in Power Conversion: Progress and Perspective</div>
     <div class="author">W. Wang, J. Fan, C. Li, <strong>Y. Yu</strong>, et al.</div>
-    <div class="periodical"><em>Energies</em>, Jan. 2025.</div>
+    <div class="periodical"><em>Energies</em>, Jan. 2024.</div>
   </div>
 
 </div>
