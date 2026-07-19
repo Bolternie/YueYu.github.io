@@ -7,7 +7,7 @@
 <div class="pub-row" style="display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap;">
 
   <div class="abbr" style="position:relative; flex:0 0 200px; height:auto; padding-right:15px; padding-left:15px;">
-    <img src="assets/img/placeholder.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
+    <img src="assets/img/TCASII.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
     <abbr class="badge">IEEE TCAS-II</abbr>
   </div>
 
@@ -36,6 +36,23 @@
       <li>Simplified Optimal Trajectory Control (SOTC) for transient response &mdash; <em>patent pending</em></li>
       <li>Simplified Feedforward Control for steady-state operation &mdash; <em>patent pending</em></li>
     </ul>
+  </div>
+
+</div>
+</li>
+
+<li>
+<div class="pub-row" style="display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap;">
+
+  <div class="abbr" style="position:relative; flex:0 0 200px; height:auto; padding-right:15px; padding-left:15px;">
+    <img src="assets/img/AFM.PNG" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
+    <abbr class="badge">AFM</abbr>
+  </div>
+
+  <div style="flex:1; min-width:240px; position:relative; padding-right:15px; padding-left:6px;">
+    <div class="title">Ear-Area Soft Electronics for Advanced Healthcare Monitoring</div>
+    <div class="author"><strong>Yue Yu*</strong>, Haoyu Zhang*, et al.</div>
+    <div class="periodical"><em>Advanced Functional Materials</em>, Apr. 2024.</div>
   </div>
 
 </div>
