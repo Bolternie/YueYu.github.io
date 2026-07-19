@@ -7,7 +7,7 @@
 <div class="pub-row" style="display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap;">
 
   <div class="abbr" style="position:relative; flex:0 0 200px; height:auto; padding-right:15px; padding-left:15px;">
-    <img src="assets/img/placeholder.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
+    <img src="assets/img/LLCPH3.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
     <abbr class="badge">Patents</abbr>
   </div>
 
