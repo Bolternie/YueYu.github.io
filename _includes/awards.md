@@ -129,6 +129,39 @@
     </div>
   </div>
 
+  <div class="timeline-entry">
+    <div class="year-circle">2025</div>
+    <div class="entry-content">
+      <h3><i class="fas fa-trophy"></i> Baosteel Outstanding Student Award</h3>
+      <ul>
+        <li>Baosteel Education Foundation</li>
+        <li>Nov. 2025</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="year-circle">2024</div>
+    <div class="entry-content">
+      <h3><i class="fas fa-award"></i> Wang Ruwen Scholarship</h3>
+      <ul>
+        <li>Xi'an Jiaotong University</li>
+        <li>Dec. 2024</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="year-circle">2023</div>
+    <div class="entry-content">
+      <h3><i class="fas fa-medal"></i> National Scholarship</h3>
+      <ul>
+        <li>Ministry of Education, China</li>
+        <li>Dec. 2023</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!--
