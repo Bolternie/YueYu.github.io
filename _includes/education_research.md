@@ -46,7 +46,7 @@
 
   @media (prefers-color-scheme: dark){
     .edu-list li{ background:rgba(45,88,72,0.12); }
-    .edu-list li.l1{ background:rgba(45,6,140,0.2); }
+    .edu-list li.l1{ background:rgba(45,88,72,0.2); }
     .edu-list .school a{ color:#ece4f3; }
     .edu-list .deg{ color:#bcb0ca; }
   }
