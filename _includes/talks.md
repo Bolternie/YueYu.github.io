@@ -13,8 +13,8 @@
 
   <div style="flex:1; min-width:240px; position:relative; padding-right:15px; padding-left:6px;">
     <div class="title">A Simplified Time-domain Model Based Feedforward Control Strategy for LLC Resonant Converters with Wide Operation Range</div>
-    <div class="author"><strong>Yue Yu</strong> et al. &middot; Oral Presentation</div>
-    <div class="periodical"><em>PEAS 2025</em>, Shenzhen, Nov. 2025.</div>
+    <div class="author"><strong>Yue Yu</strong>, Yuqi Wei &middot; Oral Presentation</div>
+    <div class="periodical"><em>IEEE PEAS 2025</em>, Shenzhen, Nov. 2025.</div>
   </div>
 
 </div>
