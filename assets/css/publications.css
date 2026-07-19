@@ -91,6 +91,12 @@ screen and (min-width: 480px) {
   margin-bottom: 0.5rem;
 }
 
+/* Nested lists inside an entry (e.g. patent sub-items) size to content */
+.publications ol.bibliography li ul li {
+  min-height: 0;
+  margin-bottom: 2px;
+}
+
 .publications ol.bibliography li .abbr {
   height: 8rem;
   margin-bottom: 0.5rem;
