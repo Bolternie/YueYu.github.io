@@ -14,13 +14,15 @@ layout: homepage
 <!-- Publications and Projects Section -->
 {% include_relative _includes/projects.md %}
 
+<!-- Activities Section -->
+{% include_relative _includes/activities.md %}
+
 <!-- The sections below are kept from the template.
      Uncomment each one after you add your own content to the
      corresponding file in _includes/.
 
 {% include_relative _includes/professional.md %}
 {% include_relative _includes/talks.md %}
-{% include_relative _includes/collaboration.md %}
 {% include_relative _includes/services.md %}
 {% include_relative _includes/resources.md %}
 {% include_relative style.md %}
