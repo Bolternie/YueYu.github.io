@@ -37,6 +37,7 @@
   .edu-list .deg{ color:#6b6275; font-size:0.88rem; margin-top:1px; }
   .edu-list .deg a{ color:#448870; text-decoration:none; }
   .edu-list .deg a:hover{ text-decoration:underline; }
+  .edu-list .deg .honor{ color:#448870; }
   .edu-list .yr{ color:#9b93a6; font-weight:600; }
 
   /* per-row tint only */
@@ -106,7 +107,7 @@
       </li>
       <li class="l2">
         <span class="school"><a href="http://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a></span>
-        <div class="deg">B.Eng. in Electrical Engineering &middot; <span class="yr">2022.9 &ndash; 2026.6</span></div>
+        <div class="deg">B.Eng. in Electrical Engineering &middot; <span class="yr">2022.9 &ndash; 2026.6</span><br><span class="honor">Commencement Honoree &amp; Distinguished Graduate</span></div>
       </li>
     </ul>
   </div>
