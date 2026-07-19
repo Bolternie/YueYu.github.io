@@ -7,16 +7,34 @@
 <div class="pub-row" style="display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap;">
 
   <div class="abbr" style="position:relative; flex:0 0 200px; height:auto; padding-right:15px; padding-left:15px;">
-    <img src="assets/img/LLCPH3.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
+    <img src="assets/img/placeholder.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
+    <abbr class="badge">IEEE TCAS-II</abbr>
+  </div>
+
+  <div style="flex:1; min-width:240px; position:relative; padding-right:15px; padding-left:6px;">
+    <div class="title">An Accurate and Simplified Time-domain Model Based Feedforward Control for LLC Converter</div>
+    <div class="author"><strong>Yue Yu</strong>, Sheng Qu, et al.</div>
+    <div class="periodical"><em>IEEE Transactions on Circuits and Systems II: Express Briefs</em>, Nov. 2025.</div>
+  </div>
+
+</div>
+</li>
+
+<li>
+<div class="pub-row" style="display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap;">
+
+  <div class="abbr" style="position:relative; flex:0 0 200px; height:auto; padding-right:15px; padding-left:15px;">
+    <img src="assets/img/placeholder.png" class="teaser img-fluid z-depth-1" style="width:200px; height:110px;">
     <abbr class="badge">Patents</abbr>
   </div>
 
   <div style="flex:1; min-width:240px; position:relative; padding-right:15px; padding-left:6px;">
     <div class="title">Development of Three-Phase LLC Control Strategy</div>
     <div class="author"><strong>Yue Yu</strong> &middot; <em>Xi'an Jiaotong University</em></div>
+    <div class="periodical"><em>Patents filed: May 2026</em></div>
     <ul style="margin:6px 0 4px; padding-left:18px; font-size:0.88rem; line-height:1.5;">
-      <li>Simplified Optimal Trajectory Control (SOTC) for transient response &mdash; Simplified Feedforward Control for steady-state operation &mdash; <em>patent pending</em></li>
-      <li></li>
+      <li>Simplified Optimal Trajectory Control (SOTC) for transient response &mdash; <em>patent pending</em></li>
+      <li>Simplified Feedforward Control for steady-state operation &mdash; <em>patent pending</em></li>
     </ul>
   </div>
 
